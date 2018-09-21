@@ -1,0 +1,13 @@
+{
+  "name": "@a/pkg2",
+  "version": "1.0.0",
+  "main": "build/c.js",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "@a/pkg1": "1.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "test5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "tsc": "tsc",
+    "build": "tsc -b packages/tsconfig.json --verbose"
+  },
+  "dependencies": {
+    "typescript": "^3.1.0-rc.20180911"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}
